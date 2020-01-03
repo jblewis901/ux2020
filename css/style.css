@@ -1,0 +1,269 @@
+
+/* CSS Document */
+
+/* YouTube link for AOS https://www.youtube.com/watch?v=ptfUwPJbGlQ */
+
+body{
+	
+	font-family: 'Roboto Slab', serif;
+	color: #595959;
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	
+}
+
+h1, h2, h3, h4, h5{
+	font-family: 'Montserrat', sans-serif;
+}
+
+.intro{
+	height: 900px;
+	background-image:url("../img/ux-imac.png");
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	
+	
+}
+
+.about{
+	padding: 30px;
+	width: 60%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.circle{
+	width: 250px;
+	height: 250px;
+	border-radius: 250px;
+	background-color: #d8d8d8;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+	padding-top: 100px;
+
+	
+}
+
+
+.title-1{
+	height: auto;
+	font-size: 1.2em;
+	background-color: #999999;
+	background-image: url("../img/post-its-2.png");
+	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	color:#ffffff;
+	text-align: center;
+	padding: 60px;
+	
+}
+
+
+.title-1 h1{
+	font-size: 3.5em;
+	padding-bottom: 40px;
+}
+
+
+.title-2{
+	height: auto;
+	font-size: 1.2em;
+	background-color: #999999;
+	background-image: url("../img/collab-2.png");
+	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	color:#ffffff;
+	text-align: center;
+	padding: 60px;
+	
+}
+
+
+.title-2 h1{
+	font-size: 3.5em;
+	padding-bottom: 40px;
+}
+
+
+.title-3{
+	height: auto;
+	font-size: 1.2em;
+	background-color: #999999;
+	background-image: url("../img/piggy-2.png");
+	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	color:#ffffff;
+	text-align: center;
+	padding: 60px;
+	
+}
+
+
+.title-3 h1{
+	font-size: 3.5em;
+	padding-bottom: 40px;
+}
+
+
+.title-4{
+	height: auto;
+	font-size: 1.2em;
+	background-color: #999999;
+	background-image: url("../img/post-its.png");
+	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	color:#ffffff;
+	text-align: center;
+	padding: 60px;
+	
+}
+
+
+.title-4 h1{
+	font-size: 3.5em;
+	padding-bottom: 40px;
+}
+
+
+.title-5{
+	height: auto;
+	font-size: 1.2em;
+	background-color: #999999;
+	background-image: url("../img/timeline.png");
+	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	color:#ffffff;
+	text-align: center;
+	padding: 60px;
+	
+}
+
+
+.title-5 h1{
+	font-size: 3.5em;
+	padding-bottom: 40px;
+}
+
+
+.credit{
+	font-size: 0.6em;
+	
+}
+
+.info-card{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	max-width: 60%;
+	background-color: #f7f7f7;
+	border: none;
+	
+}
+
+.card-img{
+	width: 100%;
+	
+}
+
+.card-row{
+	
+	text-align: center; 
+	margin: 1.5rem;
+	
+}
+
+
+
+.nav-style{
+	font-family: 'Montserrat', sans-serif;
+	margin-bottom: 63px;
+	
+	
+}
+
+.techniques{
+	text-align: center;
+	border-left: solid 1px #999999;
+	padding:20px;
+	margin-top:15px;
+	margin-bottom: 15px;
+}
+
+
+.techniques-first{
+	text-align: center;
+	
+	padding:20px;
+	margin-top:15px;
+	margin-bottom: 15px;
+}
+
+/*
+.nav-link{
+	color: #333366 !important;
+}
+
+*/
+strong{
+	color:#595959;
+	font-size: 1.3em;
+	font-weight:500;
+}
+
+
+.row{
+	display: flex;
+}
+
+
+.resize{
+	max-width: 200px;
+	opacity: 0.45;
+}
+
+.resize:hover{
+	max-width: 200px;
+	opacity: 0.75;
+}
+
+
+.row-eq-height > [class^=col]:first-of-type {
+  display: flex;
+}
+
+.row-eq-height > [class^=col]:first-of-type .black {
+  flex-grow: 1;
+}
+
+.blue p {
+  margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

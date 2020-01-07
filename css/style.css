@@ -18,8 +18,8 @@ h1, h2, h3, h4, h5{
 }
 
 .intro{
-	height: 900px;
-	background-image:url("../img/ux-imac.png");
+	height: 40rem;
+	background-image:url("../img/ux-imac-low.png");
 	background-size:cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -35,23 +35,11 @@ h1, h2, h3, h4, h5{
 	margin-right: auto;
 }
 
-.circle{
-	width: 250px;
-	height: 250px;
-	border-radius: 250px;
-	background-color: #d8d8d8;
-	margin-left: auto;
-	margin-right: auto;
-	overflow: hidden;
-	padding-top: 100px;
-
-	
-}
 
 
 .title-1{
 	height: auto;
-	font-size: 1.2em;
+	font-size: 1.2rem;
 	background-color: #999999;
 	background-image: url("../img/post-its-2.png");
 	background-attachment: fixed;
@@ -66,14 +54,14 @@ h1, h2, h3, h4, h5{
 
 
 .title-1 h1{
-	font-size: 3.5em;
+	 
 	padding-bottom: 40px;
 }
 
 
 .title-2{
 	height: auto;
-	font-size: 1.2em;
+	font-size: 1.2rem;
 	background-color: #999999;
 	background-image: url("../img/collab-2.png");
 	background-attachment: fixed;
@@ -88,14 +76,14 @@ h1, h2, h3, h4, h5{
 
 
 .title-2 h1{
-	font-size: 3.5em;
+	 
 	padding-bottom: 40px;
 }
 
 
 .title-3{
 	height: auto;
-	font-size: 1.2em;
+	font-size: 1.2rem;
 	background-color: #999999;
 	background-image: url("../img/piggy-2.png");
 	background-attachment: fixed;
@@ -110,14 +98,14 @@ h1, h2, h3, h4, h5{
 
 
 .title-3 h1{
-	font-size: 3.5em;
+	 
 	padding-bottom: 40px;
 }
 
 
 .title-4{
 	height: auto;
-	font-size: 1.2em;
+	font-size: 1.2rem;
 	background-color: #999999;
 	background-image: url("../img/post-its.png");
 	background-attachment: fixed;
@@ -132,14 +120,14 @@ h1, h2, h3, h4, h5{
 
 
 .title-4 h1{
-	font-size: 3.5em;
+	 
 	padding-bottom: 40px;
 }
 
 
 .title-5{
 	height: auto;
-	font-size: 1.2em;
+	font-size: 1.2rem;
 	background-color: #999999;
 	background-image: url("../img/timeline.png");
 	background-attachment: fixed;
@@ -154,20 +142,20 @@ h1, h2, h3, h4, h5{
 
 
 .title-5 h1{
-	font-size: 3.5em;
+	 
 	padding-bottom: 40px;
 }
 
 
 .credit{
-	font-size: 0.6em;
+	font-size: 0.6rem;
 	
 }
 
 .info-card{
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 1rem;
+	margin-top: 1em;
 	margin-bottom: 1rem;
 	max-width: 60%;
 	background-color: #f7f7f7;
@@ -221,7 +209,7 @@ h1, h2, h3, h4, h5{
 */
 strong{
 	color:#595959;
-	font-size: 1.3em;
+	font-size: 1.3rem;
 	font-weight:500;
 }
 
@@ -255,9 +243,32 @@ strong{
 }
 
 
+.q-titles{
+	color: #333366;
+	
+}
 
+.q-titles h1{
+	font-weight: 700;
+}
 
+.mobile-gallery{
+	margin-right: auto;
+	margin-left: auto;
+	
 
+}
+
+.mobile-gallery img{
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+	max-width: 100px;
+}
+
+.mobile-gallery img:hover{
+	
+	max-width: 120px;
+}
 
 
 

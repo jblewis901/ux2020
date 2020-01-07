@@ -1,20 +1,160 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>test</title>
-	<link  href="css/lightbox.min.css" rel="stylesheet">
-</head>
-
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <link rel="shortcut icon" href="img/fav.png"/>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900&display=swap" rel="stylesheet">
+      <!--AOS-->
+      <link href="css/aos.css" rel="stylesheet">
+      <!--AOS END-->
+	    <link  href="css/lightbox.min.css" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+    
 <body>
-	
-	<a href="img/mvp-900.png" data-lightbox="mvp-900" data-title="My caption"><img src="img/mvp-600.png"></a>
-	
-	<br>
-	<a href="pdf/4-core-values-of-lean-ux.pdf" data-lightbox="lean-values" data-title="My caption" class="iframe">PDF</a>
-	
-	
-	<script src="js/lightbox-plus-jquery.min.js"></script>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top nav-style">
+         <a class="navbar-brand" href="index.html"><img src="img/ux-micro.svg" alt="UX Logo" style="width: 143px; height: 37px;"></a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+               <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+               </li>
+				
+				<li class="nav-item">
+                  <a class="nav-link active" href="timeline.html">Initiatives<span class="sr-only">(current)</span></a>
+               </li>
+				<li cclass="nav-item">
+                  <a class="nav-link disabled" href="timeline.html">Resources</a>
+               </li>
+               
+            </ul>
+         </div>
+      </nav>   
+         <div style="height: 75px;"></div>
+    <div class="container">
+          
+            <div class="accordion" id="accordionExample">
+                  <div class="card">
+                    <div class="card-header" style="text-align: center;" id="headingOne">
+                      <h2 class="mb-0">
+                        <button class="btn btn-link q-titles" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                              <h1>Q1 2019 </h1>
+                        </button>
+                      </h2>
+                    </div>
+                
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                      <div class="card-body">
+                        <p>UX spent the first quarter of 2019 establishing style standards and guidelines for our applications. Because no such standards previously existed there was a lot of confusion over what the look
+                              and feel of our apps should be. So we created a universal stylesheet that we made available to all developers. This cut back on the amount of time they had to sspend doing design work and freed them up to do more development work.
+                              </p>
+                              <div class="row"> <!--gallery 1 start-->
+                                          <div class="mobile-gallery">
+                                                <a href="gifs/q1.gif" data-lightbox="CSS" data-title="A universal stylesheet to help reduce development time and streamline design to deployment process."><img src="img/code.png" alt="CSS" class="resize"></a>
+                                               
+				                        <a href="gifs/card-flip-before.gif" data-lightbox="Previously" data-title="Different developers have different styles. With no set standard, applications within our organization all had different looks"><img src="img/style-a.png" alt="previous process" class="resize"></a>
+				                        
+				                        
+				                        <a href="gifs/card-flip-after.gif" data-lightbox="Currently" data-title="A universal styleheet frees devlopers from having to style and gives us a consistent look accross all applications."><img src="img/style-b.png" alt="current process" class="resize"></a>   
+                                          </div> 
+                              </div><!--gallery 1 end-->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" style="text-align: center;" id="headingTwo">
+                      <h2 class="mb-0">
+                        <button class="btn btn-link q-titles collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                              <h1>Q2 2019 </h1>
+                        </button>
+                      </h2>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                      <div class="card-body">
+                        <p>Prototyping is a big part of how we deliver our work. These prototypes are passed along to the dev teams and used as blueprints to build applications. In order to streamline this process, UX has created USPS prototyping
+					templates that exaxty match the styles of the universal stylesheet we provided to the devlopers. This allows us to more rapidly produce high fidelity prototypes, further decreasing production time.
+                        </p>
+                        <div class="row"> <!--gallery 2 start-->
+                              <div class="mobile-gallery">
+                                    <a href="gifs/q2.gif" data-lightbox="Templates" data-title="We've built prototyping templates based on our stylesheet. Now we can quickly build prototypes that are aesthetically identical to the final product."><img src="img/axure.png" alt="prototyping template" class="resize"></a>
+                              </div> 
+                        </div><!--gallery 2 end-->
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" style="text-align: center;" id="headingThree">
+                      <h2 class="mb-0">
+                        <button class="btn btn-link q-titles collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                              <h1>Q3 2019</h1> 
+                        </button>
+                      </h2>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                      <div class="card-body">
+                        <p> UX has created over 300 icons tailored to the specific needs of our organization. These icons also exist in the form of a font library that we have created for easy use on our web applications</p>
 
+                        <div class="row"> <!--gallery 3 start-->
+                              <div class="mobile-gallery">
+                                    <a href="gifs/q3.gif" data-lightbox="Icon Library" data-title="We've created over 300 custom icons for USPS. These scalable vector graphics have also been converted to a font library for easy use on our websites"><img src="img/icon-lib.png" alt="icons" class="resize"></a>
+                              </div> 
+                  </div><!--gallery 3 end-->
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                        <div class="card-header" style="text-align: center;" id="headingFour">
+                          <h2 class="mb-0">
+                            <button class="btn btn-link q-titles collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                              <h1>Q4 2019 </h1>
+                            </button>
+                          </h2>
+                        </div>
+                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                          <div class="card-body">
+                              <p>The library that we've built is a robust set of front end tools using a customized version of the tried and true Bootstrap 4 framework. It is scalable, light-weight and all components are mobile ready. If adopted, this tool
+                                    will reduce development time, reduce development cost, and provide a consistent level of quality accross all of our applications.
+                                    </p>
+                            <div class="row"> <!--gallery 4 start-->
+                              <div class="mobile-gallery">
+                                    <a href="gifs/complete.gif" data-lightbox="Completd Library" data-title="The framework that we have created mobile responsive, and comes with a varitety of prestyled widgets and graphics to optimize the time of our development and design teams."><img src="img/complete.png" alt="completed UX framework" class="resize"></a>
+				
+				            <a href="gifs/dev-time.gif" data-lightbox="Before" data-title="Here's a look at a developer's timeline without our framework."><img src="img/tl1.png" alt="timeline 1" class="resize"></a>
+				
+				            <a href="gifs/dev-time-2.gif" data-lightbox="After" data-title="Development time with the UX framework is much shorter."><img src="img/tl2.png" alt="timeline 2" class="resize"></a>
+                              </div>
+                              
+                              </div> 
+                  </div><!--gallery 4 end-->
+                          </div>
+                        </div>
+                      </div>
+                </div>
+          
+    </div>
+
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+      <!--<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>-->
+	<script src="js/lightbox-plus-jquery.min.js"></script>
+      <script src="js/aos.js"></script>
+      <script>
+         AOS.init({
+          offset: 400, // offset (in px) from the original trigger point
+               delay: 0, // values from 0 to 3000, with step 50ms
+               duration: 1000 // values from 0 to 3000, with step 50ms
+         });
+      </script>
+    
+	
+      <script src="js/myscript.js"></script>
 </body>
 </html>
